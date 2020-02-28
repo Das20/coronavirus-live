@@ -1,0 +1,40 @@
+{
+  "italia": {
+    "regioni": [
+      {
+        "nome": "emiliaromagna",
+        "province": [
+          {
+            "nome": "reggioemilia",
+            "morti": 123,
+            "infetti": 1235,
+            "curati": 89
+          },
+          {
+            "nome": "modena",
+            "morti": 123,
+            "infetti": 1235,
+            "curati": 89
+          }
+        ]
+      },
+      {
+        "nome": "lombardia",
+        "province": [
+          {
+            "nome": "milano",
+            "morti": 123,
+            "infetti": 1235,
+            "curati": 89
+          },
+          {
+            "nome": "lecco",
+            "morti": 123,
+            "infetti": 1235,
+            "curati": 89
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Coronavirus Live</title>
+    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet" type="text/css">
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon"/>
+    <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="theme-color" content="white"/>
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="SubitoPuntoItAlert">
+    <meta name="msapplication-TileImage" content="/assets/images/hello-icon-144.png">
+    <meta name="msapplication-TileColor" content="#FFFFFF">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script type="module" src="/app.js"></script>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.9.1/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyByIqLP-YurCWnEKh8RZSSoK-OsF2w4dgw",
+    authDomain: "coronavirus-live-ncov2019.firebaseapp.com",
+    databaseURL: "https://coronavirus-live-ncov2019.firebaseio.com",
+    projectId: "coronavirus-live-ncov2019",
+    storageBucket: "coronavirus-live-ncov2019.appspot.com",
+    messagingSenderId: "963625232409",
+    appId: "1:963625232409:web:6afcca55c922ab14d9e288",
+    measurementId: "G-TVWEXZ2V4F"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+</head>
+<body>
+    <div id="headerbar-container"></div>
+    <div id="main-container"></div>
+    <div id="bottombar-container"></div>
+</body>
+</html>
