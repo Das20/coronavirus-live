@@ -6,7 +6,7 @@
         "province": [
           {
             "morti": 2,
-            "casi": 145,
+            "casi": 189,
             "curati": 0
           }
         ]
@@ -26,7 +26,7 @@
         "province": [
           {
             "morti": 2,
-            "casi": 151,
+            "casi": 191,
             "curati": 2
           }
         ]
@@ -46,7 +46,7 @@
         "province": [
           {
             "morti": 0,
-            "casi": 11,
+            "casi": 43,
             "curati": 0
           }
         ]
@@ -86,7 +86,7 @@
         "province": [
           {
             "morti": 0,
-            "casi": 4,
+            "casi": 13,
             "curati": 0
           }
         ]

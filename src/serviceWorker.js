@@ -1,10 +1,19 @@
-var cacheName = 'coronavirus-live';
+var cacheName = 'coronavirus-live-v1.00';
 var filesToCache = [
     '/assets/images/offline.png',
     '/offline.html',
-    '/views',
+    '/views/components/BottomBar.js',
+    '/views/components/HeaderBar.js',
+    '/views/pages/Map.js',
+    '/views/pages/News.js',
+    '/views/pages/Tables.js',
     '/manifest.json',
+    '/services/Utils.js',
     '/favicon.ico',
+    '/app.js',
+    '/index.html',
+    '/',
+    '/assets/css/style.css',
     '/assets/images/icon-144.png'
 ];
 
