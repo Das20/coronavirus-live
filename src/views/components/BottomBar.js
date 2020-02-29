@@ -10,9 +10,9 @@ let BottomBar = {
                         <div class="nav-wrapper">
                             <div class="row menu">
                                 <div class="col s12 center-align">
-                                    <a class="btn-flat" href="#/tables"><i class="material-icons">search</i></a>
-                                    <a class="btn-flat" href="#/map"><i class="material-icons">message</i></a>
-                                    <a class="btn-flat" href="#/news"><i class="material-icons">add_box</i></a>
+                                    <a class="btn-flat" href="#/tables"><i class="material-icons">assessment</i></a>
+                                    <a class="btn-flat" href="#/map"><i class="material-icons">map</i></a>
+                                    <a class="btn-flat" href="#/news"><i class="material-icons">comment</i></a>
                                 </div>
                             </div>
                         </div>

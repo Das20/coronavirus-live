@@ -112,3 +112,17 @@ div.input-field.col.s12.text {
 .btn-flat:focus {
     background-color: #F94139 !important;
 }
+
+.mapGoogle{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tableC{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

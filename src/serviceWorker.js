@@ -2,6 +2,7 @@ var cacheName = 'coronavirus-live';
 var filesToCache = [
     '/assets/images/offline.png',
     '/offline.html',
+    '/views',
     '/manifest.json',
     '/favicon.ico',
     '/assets/images/icon-144.png'

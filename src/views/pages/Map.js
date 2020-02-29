@@ -4,9 +4,7 @@ let Map = {
 
     render: () => {
         return `
-            <div class="no-elements">
-                <h5>Mappa</h5>
-            </div>  
+        <iframe class="mapGoogle" src="https://www.google.com/maps/d/u/0/embed?mid=1T0zFvL_LiXN4_Aqzp597PvpsykH4ECdN" width="640" height="480"></iframe>
         `
     }
 

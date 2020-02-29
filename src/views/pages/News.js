@@ -5,7 +5,7 @@ let News = {
     render: () => {
         return `
             <div class="no-elements">
-                <h5>Notizie</h5>
+                <h5>Work in progress..</h5>
             </div>  
         `
     }

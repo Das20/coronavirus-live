@@ -2,36 +2,142 @@
   "italia": {
     "regioni": [
       {
-        "nome": "emiliaromagna",
+        "nome": "Emilia-Romagna",
         "province": [
           {
-            "nome": "reggioemilia",
-            "morti": 123,
-            "infetti": 1235,
-            "curati": 89
-          },
-          {
-            "nome": "modena",
-            "morti": 123,
-            "infetti": 1235,
-            "curati": 89
+            "morti": 2,
+            "casi": 145,
+            "curati": 0
           }
         ]
       },
       {
-        "nome": "lombardia",
+        "nome": "Lombardia",
         "province": [
           {
-            "nome": "milano",
-            "morti": 123,
-            "infetti": 1235,
-            "curati": 89
-          },
+            "morti": 17,
+            "casi": 531,
+            "curati": 40
+          }
+        ]
+      },
+      {
+        "nome": "Veneto",
+        "province": [
           {
-            "nome": "lecco",
-            "morti": 123,
-            "infetti": 1235,
-            "curati": 89
+            "morti": 2,
+            "casi": 151,
+            "curati": 2
+          }
+        ]
+      },
+      {
+        "nome": "Liguria",
+        "province": [
+          {
+            "morti": 0,
+            "casi": 19,
+            "curati": 0
+          }
+        ]
+      },
+      {
+        "nome": "Piemonte",
+        "province": [
+          {
+            "morti": 0,
+            "casi": 11,
+            "curati": 0
+          }
+        ]
+      },
+      {
+        "nome": "Toscana",
+        "province": [
+          {
+            "morti": 0,
+            "casi": 8,
+            "curati": 1
+          }
+        ]
+      },
+      {
+        "nome": "Marche",
+        "province": [
+          {
+            "morti": 0,
+            "casi": 6,
+            "curati": 0
+          }
+        ]
+      },
+      {
+        "nome": "Sicilia",
+        "province": [
+          {
+            "morti": 0,
+            "casi": 4,
+            "curati": 0
+          }
+        ]
+      },
+      {
+        "nome": "Campania",
+        "province": [
+          {
+            "morti": 0,
+            "casi": 4,
+            "curati": 0
+          }
+        ]
+      },
+      {
+        "nome": "Lazio",
+        "province": [
+          {
+            "morti": 0,
+            "casi": 4,
+            "curati": 3
+          }
+        ]
+      },
+      {
+        "nome": "Puglia",
+        "province": [
+          {
+            "morti": 0,
+            "casi": 3,
+            "curati": 0
+          }
+        ]
+      },
+      {
+        "nome": "Trentino Alto Adige",
+        "province": [
+          {
+            "morti": 0,
+            "casi": 1,
+            "curati": 0
+          }
+        ]
+      },
+      {
+        "nome": "Calabria",
+        "province": [
+          {
+            "morti": 0,
+            "casi": 1,
+            "curati": 0
+          }
+        ]
+      },
+      {
+        "nome": "Abruzzo",
+        "province": [
+          {
+            "morti": 0,
+            "casi": 1,
+            "curati": 0
           }
         ]
       }
