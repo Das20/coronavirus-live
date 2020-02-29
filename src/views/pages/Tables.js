@@ -8,8 +8,8 @@ let Tables = {
     return `
             <div class="container">
             <div class="row">
-            <div class="col s6">
-              <table id="myTable" class="highlight centered">
+            <div class="col tableC">
+              <table id="myTable" class="striped">
                 <thead>
                   <tr>
                       <th>Regione</th>
@@ -37,13 +37,13 @@ let Tables = {
   , after_render: async () => {
     const headerTitle = document.querySelector('#header-title');
     headerTitle.innerText = 'Dati';
+    var table = document.getElementById("body");
     let jsonResponse = await Utils.get(
       '/test.json',
     );
     var i = 0;
     for (let regione of jsonResponse.italia.regioni) {
       for (let provincia of regione.province) {
-        var table = document.getElementById("body");
         var rowT = table.insertRow(i);
         var cell1 = rowT.insertCell(0);
         var cell2 = rowT.insertCell(1);
@@ -57,13 +57,12 @@ let Tables = {
       }
     }
     $(document).ready( function () {
-    var table = $('#myTable').DataTable({
-        bPaginate : false
+      $('#myTable').DataTable({
+        retrieve: true,
+        bPaginate : false,
+        filter : false,
+        order: [[1, 'desc']]
       });
-      table
-      .column('1:visible')
-      .order('desc')
-      .draw();
     });
   }
 };

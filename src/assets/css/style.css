@@ -82,10 +82,10 @@ div.input-field.col.s12.text {
 }
 
 .tableC{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+  top: 0;
+  margin-top: 40px;
+  left: 0;
+  width: 100%;
 }
 
 .dataTables_info{
@@ -108,4 +108,17 @@ display: none;
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.news{
+  width: 100%;
+  margin-top:20px;
+}
+
+#news thead{
+  display : none;
+}
+
+#news_length{
+  display:none;
 }
