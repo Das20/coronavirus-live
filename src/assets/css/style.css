@@ -43,24 +43,6 @@ nav a {
     font-weight: bold;
 }
 
-p.price {
-    font-weight: bold;
-    color: #F94139;
-}
-
-p.town, p.location {
-    color: #969696;
-}
-
-li.collection-item.avatar {
-    height: 64px;
-    padding: 15px;
-}
-
-#toast-container {
-    top: 54.5px;
-}
-
 input {
     height: 46px;
     border-radius: 3px;
@@ -84,28 +66,7 @@ form#add-research-form.col.s12 {
     padding: 1.4rem;
 }
 
-.blue-button {
-    background: #0097A6;
-    color: #ffffff;
-    padding: 10px calc((100% - 62px) / 2);
-    text-transform: uppercase;
-    border-radius: 6px;
-    font-weight: bold;
-}
-
 div.input-field.col.s12.text {
-    margin-top: 0;
-}
-
-.no-elements {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-}
-
-.no-elements h5 {
     margin-top: 0;
 }
 
@@ -125,4 +86,8 @@ div.input-field.col.s12.text {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+.dataTables_info{
+display: none;
 }

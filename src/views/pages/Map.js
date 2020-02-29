@@ -10,7 +10,7 @@ let Map = {
 
     , after_render: async () => {
         const headerTitle = document.getElementById('header-title');
-        headerTitle.innerText = 'Mappe';
+        headerTitle.innerText = 'Mappa';
 
     }
 };
